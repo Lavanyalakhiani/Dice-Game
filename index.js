@@ -12,14 +12,14 @@ function rollDice() {
 // Function to handle Player 1's dice roll
 document.getElementsByClassName("img1")[0].addEventListener("click", function () {
     player1Roll = rollDice();
-    document.getElementsByClassName("img1")[0].setAttribute("src", "images/dice" + player1Roll + ".png");
+    document.getElementsByClassName("img1")[0].setAttribute("src", "dice" + player1Roll + ".png");
     checkWinner();
 });
 
 // Function to handle Player 2's dice roll
 document.getElementsByClassName("img2")[0].addEventListener("click", function () {
     player2Roll = rollDice();
-    document.getElementsByClassName("img2")[0].setAttribute("src", "images/dice" + player2Roll + ".png");
+    document.getElementsByClassName("img2")[0].setAttribute("src", "dice" + player2Roll + ".png");
     checkWinner();
 });
 
